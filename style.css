@@ -1,0 +1,385 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: #fedc00a1;
+  color: #013A20;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #0A7029;
+}
+
+nav ul{
+  display: flex;
+  justify-content:center;
+   
+}
+
+nav ul li{
+  list-style: none;
+  margin:0 23px;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+nav ul li a:hover{
+  color: rgb(164, 164, 218);
+  font-size: 1.06rem;
+
+}
+
+main hr{
+  border: 0;
+  height: 5px;
+  background: rgba(255, 174, 0, 0.901);;
+  /* margin: 40px 84px; */
+
+}
+.left{
+  font-size: 1.5em;
+}
+
+.firstSection{
+  display:flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.firstSection > div{
+  width:30% ;
+}
+
+.leftSection{
+  font-size: 3rem;
+}
+
+.rightSection img{
+  width: 80%;
+}
+
+.purple{
+  color: #32CD30;
+
+}
+.text-grey{
+  color: rgba(255, 174, 0, 0.901);;
+}
+#element{
+  color: #32CD30;
+}
+
+.secondSection{
+  max-width: 100%;
+  height:100vh ;
+}
+
+.secondSection h1{
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing:  5px;
+}
+
+.secondSection .box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  padding:5%;
+  border-radius: 10px;
+}
+
+.secondSection .vertical{
+  height: 330px;
+  width: 40%;
+  border-radius: 5px;
+  background-color: rgba(243, 91, 9, 0.825);
+  padding: auto;
+  margin: 15px;
+  margin-top: 0%;
+  color:  white;
+  border: 5px solid rgba(15, 111, 2, 0.81);
+}
+
+.secondSection .vertical:hover {
+  box-shadow: 0 16px 20px 0 rgba(1, 91, 1, 0.2), 0 6px  20px 0 rgba(3, 18, 225,  0.19);
+}
+.vertical-title{
+  font-weight:900;
+  margin-bottom: 30px;
+  padding: 5px;
+  font-size: 30px;
+  font-family: 'poppins';
+  letter-spacing: 2px;
+  color:#FEDE00;
+}
+
+.vertical-desc{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+footer{
+  background-color: #0A7029
+  
+}
+.footer{
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer >div{
+  width: 223px;
+}
+
+footer .footer-rights{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 12px 0;
+
+}
+
+.thirdSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 80vw;
+  margin: auto;
+  height:100vh ;
+}
+.thirdSection .uplistlist h3{
+  margin-bottom: 4px;
+  padding: 10px;
+}
+.thirdSection .uplistlist ul li{
+  padding: 3px;
+  list-style-type: square;
+}
+
+.uplistlist,.downlist{
+  width: 80% ;
+  margin-left: 270px;
+}
+
+section.project {
+  margin: 20px;
+  padding: 20px;
+  border: 4px solid #013A20;
+}
+.fourthSection{
+  max-width: 80vw;
+  margin: auto;
+  height:100vh ;
+
+}
+
+.fifthSection{
+  max-width:80vw;
+  margin: auto;
+  height: 70vh;
+}
+
+
+
+  
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contact-details,
+.message-form {
+  max-width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  font-weight: 800;
+  text-decoration: none;
+  color: #000000;
+}
+
+i {
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #0A7029;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1db4de;
+}
+
+.fifthSection{
+  display:flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.linkedinicon{
+  width: 15px;
+  height: 15px;
+}
+
+.fbicon{
+  width: 17px;
+  height: 17px;
+}
+
+.instaicon{
+  width: 15px;
+  height: 15px;
+}
+
+.whatsappicon{
+  width: 15px;
+  height: 15px;
+}
+
+.gmailicon{
+  width: 15px;
+  height: 15px;
+}
+
+.phoneicon{
+  width: 17px;
+  height: 17px;
+}
+
+
+/* For tablets */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .firstSection, .fifthSection {
+    flex-direction: column;
+  }
+
+  .firstSection > div, .fifthSection > div {
+    width: 90%;
+  }
+
+  .secondSection .box, .thirdSection .uplistlist, .secondSection .vertical, .downlist {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer > div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .contact-details, .message-form {
+    max-width: 90%;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .leftSection {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+
+  .secondSection, .thirdSection, .fourthSection, .fifthSection {
+    max-width: 95vw;
+  }
+
+  .secondSection h1, .thirdSection h1, .fourthSection h1, .fifthSection h1 {
+    font-size: 1.5rem;
+  }
+
+  .secondSection .box, .thirdSection .uplistlist, .downlist {
+    margin-left: 2.5vw;
+  }
+
+  .secondSection .vertical, .fourthSection .project {
+    margin: 20px 0;
+  }
+
+  .footer {
+    padding: 23px;
+  }
+
+  .thirdSection .uplistlist ul, .downlist ul {
+    padding: 0 15px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+  }
+  
+  /* Adjust the font size and icon sizes on smaller screens */
+  .thirdSection h3, .fifthSection a, .footer-rights {
+    font-size: 0.8rem;
+  }
+
+  .linkedinicon, .fbicon, .instaicon, .whatsappicon, .gmailicon, .phoneicon {
+    width: 12px; /* Decrease the size of the icons */
+    height: 12px;
+  }
+}
